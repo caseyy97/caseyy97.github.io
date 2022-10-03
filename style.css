@@ -210,7 +210,16 @@ a:hover {
   border-color: #ff3300;
 }
 
-#jade p, #jade h3, #jade h5, #zac p, #zac h3, #zac h5, #jade h6, #zac h6, #ashlyn p, #ashlyn h3, #ashlyn h5, #ashlyn h6 {
+#uv {
+  background-color: #ff0033;
+  border-color: #660000 !important;
+}
+
+#uv .avatar-inline-frame img {
+  border-color: #660000;
+}
+
+#jade p, #jade h3, #jade h5, #zac p, #zac h3, #zac h5, #jade h6, #zac h6, #ashlyn p, #ashlyn h3, #ashlyn h5, #ashlyn h6, #uv p, #uv h3, #uv h5, #uv h6 {
   color: #FFFFFF !important;
 }
 
