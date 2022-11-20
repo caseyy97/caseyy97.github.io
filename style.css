@@ -63,8 +63,32 @@ h1, h2, h3, h4, h5, h6, i {
   text-transform: lowercase;
 }
 
-.hero-scroll {
+.marquee {
+  height: 25px;
+  /* width: 100%; */
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 15s linear infinite;
+}
+
+.marquee h4 {
+  float: left;
   text-shadow: 2px 2px 2px #660033;
+}
+
+@keyframes marquee {
+  0% { left: 125%; }
+  100% { left: -125%; }
 }
 
 .content-block h1, h2, h3, h4, h5, h6 {
@@ -283,6 +307,20 @@ a:hover {
   h1.hero-text {
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+  .marquee div {
+    display: block;
+    width: 300%;
+    height: 30px;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 10s linear infinite;
+  }
+  @keyframes marquee {
+    0% { left: 200%; }
+    100% { left: -300%; }
   }
 }
 
