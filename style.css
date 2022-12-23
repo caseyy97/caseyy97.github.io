@@ -153,6 +153,7 @@ a:hover {
   border-style: solid;
   transition: transform 0.25s ease, z-index 0.25s ease; 
   overflow: hidden;
+  object-fit: cover;
 }
 
 .rotated {
@@ -287,6 +288,12 @@ a:hover {
 
 #jade p, #jade h3, #jade h5, #zac p, #zac h3, #zac h5, #jade h6, #zac h6, #ashlyn p, #ashlyn h3, #ashlyn h5, #ashlyn h6, #uv p, #uv h3, #uv h5, #uv h6 {
   color: #FFFFFF !important;
+}
+
+.trans {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 3px;
 }
 
 /* Responsiveness */
