@@ -326,8 +326,8 @@ a:hover {
     animation: marquee 10s linear infinite;
   }
   @keyframes marquee {
-    0% { left: 200%; }
-    100% { left: -300%; }
+    0% { left: 200% !important; }
+    100% { left: -300% !important; }
   }
   footer .hero-text {
     padding: 1rem;
