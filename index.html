@@ -69,8 +69,17 @@
         <img src="files/therian.png" height="31">
         <img src="files/pride.aafcec1.gif" height="31">
         <img src="files/yoshihatchbutton.gif" height="31">
+        <div class="align-middle text-center" id="goatcounter-visits"></div>
+        <script>
+          var t = setInterval(function() {
+              if (window.goatcounter && window.goatcounter.visit_count) {
+                  clearInterval(t)
+                  window.goatcounter.visit_count({append: '#goatcounter-visits'})
+              }
+          }, 100)
+        </script>
+        <script data-goatcounter="https://caseys-corner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </footer>
     </div>
   </body>
-  <script data-goatcounter="https://caseys-corner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </html>
