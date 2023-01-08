@@ -69,12 +69,12 @@
         <img src="files/therian.png" height="31">
         <img src="files/pride.aafcec1.gif" height="31">
         <img src="files/yoshihatchbutton.gif" height="31">
-        <div class="align-middle text-center" id="goatcounter-visits"></div>
+        <div class="mt-3 align-middle text-center" id="goatcounter-visits"></div>
         <script>
           var t = setInterval(function() {
               if (window.goatcounter && window.goatcounter.visit_count) {
                   clearInterval(t)
-                  window.goatcounter.visit_count({append: '#goatcounter-visits'})
+                  window.goatcounter.visit_count({append: '#goatcounter-visits', type: 'svg'})
               }
           }, 100)
         </script>
