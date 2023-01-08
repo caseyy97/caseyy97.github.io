@@ -317,7 +317,7 @@ a:hover {
   }
   .marquee div {
     display: block;
-    width: 300%;
+    width: 400%;
     height: 30px;
   
     position: absolute;
@@ -326,8 +326,8 @@ a:hover {
     animation: marquee 10s linear infinite;
   }
   @keyframes marquee {
-    0% { left: 200% !important; }
-    100% { left: -300% !important; }
+    0% { left: 200%; }
+    100% { left: -400%; }
   }
   footer .hero-text {
     padding: 1rem;
