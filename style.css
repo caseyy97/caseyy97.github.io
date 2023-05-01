@@ -188,13 +188,13 @@ a:hover {
 }
 
 #ash {
-  background-color: #CCCC66; 
+  background-color: #D3D3D3; 
   /* box-shadow: 5px 10px #999900; */
-  border-color: #999966 !important;
+  border-color: #404040 !important;
 }
 
 #ash .avatar-inline-frame img {
-  border-color: #999966;
+  border-color: #404040;
 }
 
 #ashlyn {
@@ -262,9 +262,8 @@ a:hover {
 }
 
 #nerezza {
-  background-color: #999999;
+  background-color: #D6DCF4;
   border-color: #000000;
-  color: #
 }
 
 #zac {
