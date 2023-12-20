@@ -43,14 +43,14 @@ body {
 }
 
 #page-content {
-  min-height: 80vh;
+  min-height: 85vh;
 }
 
 #footer {
   bottom: 0;
   position: fixed;
   width: 100vw;
-  min-height: 20vh;
+  min-height: 15vh;
   background-color: #111010;
 }
 
